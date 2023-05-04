@@ -10,9 +10,9 @@ const { PineconeClient } = require("@pinecone-database/pinecone");
 const { OpenAI } = require("langchain/llms/openai");
 const { loadQAStuffChain } = require("langchain/chains");
 
-const OPENAI_API_KEY = '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';
-const PINECONE_API_KEY = 'f4d39b14-4526-4fa3-aedd-d50e20f5e949';
-const PINECONE_API_ENV = 'northamerica-northeast1-gcp';
+const OPENAI_API_KEY = '';
+const PINECONE_API_KEY = '';
+const PINECONE_API_ENV = '';
 const PINECONE_INDEX_NAME = 'auto-gpt';
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
